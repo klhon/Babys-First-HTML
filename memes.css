@@ -1,5 +1,5 @@
 body{
-	
+	background: pink;
 }
 h1{
 	font-family: verdana;
@@ -16,11 +16,22 @@ p{
 	padding-right: 8px; 
 	padding-top: 8px;
 }
+header{
+	font-size: 20px;
+	text-align: center;
+}
+
+img {
+    width:500px; 
+    height: auto;
+}
+
 .container{
     overflow: hidden;
     min-height: 500px;
     text-align: center;
 }
+
 .Britney{
 	font-size: 30px;
 	color: red;
