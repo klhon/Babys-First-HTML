@@ -1,0 +1,108 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title> My First HTML </title>
+	<meta name="author" content="Prinn">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: courier new;
+}
+
+/* Style the header */
+header {
+    background-color: tomato;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 20%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: salmon;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 30px;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: lightsalmon;
+    padding: 30px;
+    text-align: left;
+    color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+
+	<header>
+  		<h2>Prinn's Profile</h2>
+	</header>
+
+<section>
+  <nav>
+    <ul>
+    <p style="font-size: 150%;"> My alliance </p>
+      <li><a href="#">Tiny</a></li>
+      <li><a href="#">Jumbo</a></li>
+      <li><a href="#">Kinky</a></li>
+      <li><a href="#">Bumpy</a></li>
+    </ul>
+  </nav>
+  
+<article>
+    <h1>Hello everyone</h1>
+    <p>Hello! My name is Prinn. I am a 20-year-old Thai student in Stony Brook University. I am majoring in biochemistry. </p>
+    <p>This is my second year of my college. </p>
+    <p> I got a couple alliances that I would like to introduce to you. Even thought I have know them only for a year. </p>
+  	<img src="https://media.giphy.com/media/xTiN0jHuzhUAo7yGsM/giphy.gif" width= "200" height="100">
+</article>
+
+</section>
+
+<footer>
+  <p style="font-size: 150%;">Contact Me!</p>
+  <p> Email: prinnlarb@gmail.com </p>
+  <p> Instragram: prinz35758 </p>
+  <p> Snapchat: prinz35758 </p>
+</footer>
+
+</body>
+</html>
