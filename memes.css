@@ -1,6 +1,34 @@
+body{
+	background-image: url("bg.gif")
+	background-repeat: space;
+}
 h1{
 	font-family: verdana;
 	font-size: 100px;
 	color: pink;
 	text-align: center;
+}
+.Britney{
+	font-size: 100px;
+	color: red;
+}
+
+.Kellie{
+	font-size: 100px;
+	color: blue;
+}
+
+.Prinn{
+	font-size: 100px;
+	color: green;
+}
+
+.Tiff{
+	font-size: 100px;
+	color: pink;
+}
+
+.Jaisy{
+	font-size: 100px
+	color: yellow;
 }
