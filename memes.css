@@ -1,34 +1,63 @@
 body{
-	background-image: url("bg.gif")
-	background-repeat: space;
+	background: pink;
 }
 h1{
 	font-family: verdana;
 	font-size: 100px;
-	color: pink;
+	color: silver;
 	text-align: center;
 }
+p{
+	background-color: #FFF8C6; 
+	margin-left: 700px; 
+	margin-right: 700px; 
+	padding-bottom: 8px; 
+	padding-left: 8px; 
+	padding-right: 8px; 
+	padding-top: 8px;
+}
+header{
+	font-size: 20px;
+	text-align: center;
+}
+
+img {
+    width:500px; 
+    height: auto;
+}
+
+.container{
+    overflow: hidden;
+    min-height: 500px;
+    text-align: center;
+}
+
 .Britney{
-	font-size: 100px;
+	font-size: 30px;
 	color: red;
+	text-align: center;
 }
 
 .Kellie{
-	font-size: 100px;
+	font-size: 30px;
 	color: blue;
+	text-align: center;
 }
 
 .Prinn{
-	font-size: 100px;
+	font-size: 30px;
 	color: green;
+	text-align: center;
 }
 
 .Tiff{
-	font-size: 100px;
+	font-size: 30px;
 	color: pink;
+	text-align: center;
 }
 
 .Jaisy{
-	font-size: 100px
+	font-size: 30px;
 	color: yellow;
+	text-align: center;
 }
